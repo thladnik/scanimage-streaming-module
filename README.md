@@ -1,4 +1,4 @@
-# ScanImage Streaming Module
+# ScanImage Streaming Module (SSM)
 ScanImage Streaming Module is a addon written for streaming calcium imaging frames and meta data from ScanImage to a remote server via TCP/IP. It can be integrated into ScanImage by setting the following user functions:
 
 |#|Event Name|User Function|Arguments|

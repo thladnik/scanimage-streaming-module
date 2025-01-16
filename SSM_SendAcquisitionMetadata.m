@@ -23,6 +23,9 @@ function SSM_SendAcquisitionMetadata(acqu_mode, source,event)
     % add end position of stack
     if (~isempty(source.hSI.hStackManager.stackZEndPos)); meta_data.stack_z_stop_pos = source.hSI.hStackManager.stackZEndPos; end
 
+    % add stack step size
+    if (~isempty(source.hSI.hStackManager.stackZStepSize)); meta_data.stack_step_size = source.hSI.hStackManager.stackZStepSize; end
+
     % add number of frames per volume
     if (~isempty(source.hSI.hStackManager.numFramesPerVolume)); meta_data.stack_num_frames_per_volume = source.hSI.hStackManager.numFramesPerVolume; end
 

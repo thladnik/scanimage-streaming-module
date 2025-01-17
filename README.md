@@ -30,4 +30,4 @@ The signal code specifies what kind of data is send. The signal code can contain
 data length specifies the length of the data send in bytes
 
 ### data:
-data contains the data send in bytes
+data contains the data send
